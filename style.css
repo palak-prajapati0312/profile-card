@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    width: 100%;
+    height: 100%;
+    background-color: blueviolet;
+}
+
+#main #cards{
+    padding-top: 20px;
+    padding-left: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 400px;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+
+#cards #circle{
+    width: 100px;
+    height: 100px;
+    background-image: url("https://images.unsplash.com/photo-1706426629246-2a3c3e3e3ff2?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D");
+    border-radius: 50%;
+    background-size: cover;
+    background-position: top;
+}
+
+#cards h1{
+    font-size: 35px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxy;
+    color: rgb(61, 61, 61);
+}
+
+#cards p{
+    font-size: 14px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxy;
+}
+
+#cards button{
+    width: 200px;
+    height: 30px;
+    border-radius: 8px;
+    background-color: rgb(66, 66, 66);
+    color: aliceblue;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxy;
+    border: none;
+    margin-top: 20px;
+}
